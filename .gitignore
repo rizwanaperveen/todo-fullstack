@@ -1,0 +1,118 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env*
+!.env.example
+
+# Next.js
+.next/
+out/
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for web tests
+jspm_packages/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Optional npm cache directory
+.npm
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+iTunes_Control
+Thumbs.db
+
+# Editor related
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea
+*.swp
+*.swo
+*~
+
+# Testing
+coverage/
+.nyc_output/
+
+# CI
+*.tgz
+
+# Next.js specific
+.next
+.next/**
+!.next/static
+!.next/static/**
+!.next/server
+!.next/server/**
+!.next/cache
+!.next/cache/**
+!.next/build-manifest.json
+!.next/react-loadable-manifest.json
+!.next/prerender-manifest.json
+!.next/required-server-files.json
+!.next/routes-manifest.json
+
+# Production builds
+public/_next/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg
+MANIFEST
